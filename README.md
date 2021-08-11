@@ -1,3 +1,10 @@
+# Twitter Clone 
+
+A react web app that tries to imitate the desktop web version of twitter site, you can tweet and get some information the users.
+
+## Demo 
+
+[Link](https://twitter-clone-abb4f.web.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
