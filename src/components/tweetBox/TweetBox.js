@@ -7,8 +7,18 @@ function TweetBox() {
       <form action="">
         <div className="tweetBox__input">
           <Avatar src="https://pbs.twimg.com/media/DXw5Hq4WkAAj2Nh.jpg" />
+          <input
+            
+            placeholder="What's happening?"
+            type="text"
+          />
         </div>
-        <Button>Tweet</Button>
+        <input
+          className="tweetBox__imageInput"
+          placeholder="Optional: Enter image URL"
+          type="text"
+        />
+        <Button className="tweetBox__tweetButton">Tweet</Button>
       </form>
     </div>
   );
