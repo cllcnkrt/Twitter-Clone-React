@@ -4,7 +4,15 @@
   min-width: fit-content;
   overflow-y: scroll;
 }
-
+/* hide scroolbar for chrome, safari and opera */
+.feed::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar for IE, edge and firefox */
+.feed {
+  -ms-overflow-style: none;/* IE and Edge */
+  scrollbar-width: none; /* Firebox */
+}
 .feed-header {
   position: sticky;
   top: 0;
@@ -12,4 +20,9 @@
   z-index: 100;
   border: 1px solid var(--twitter-bg);
   padding: 15px 20px;
+}
+
+.feed__header > h2 {
+  font-size: 20px;
+  font-weight: 800;
 }
